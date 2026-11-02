@@ -1,0 +1,27 @@
+# Terraform local data and plans
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+crash.log
+crash.*.log
+
+# Local variable files (keep the example)
+*.tfvars
+*.tfvars.json
+!terraform.tfvars.example
+
+# Local overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Generated Google credentials
+gha-creds-*.json
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/

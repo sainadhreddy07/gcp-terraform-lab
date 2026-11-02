@@ -1,0 +1,8 @@
+project_id        = "project-3c584b29-0ddb-45ce-95d"
+region            = "asia-south1"
+zone              = "asia-south1-a"
+name_prefix       = "gcp-lab"
+subnet_cidr       = "10.20.1.0/24"
+machine_type      = "e2-micro"
+boot_disk_size_gb = 20
+data_disk_size_gb = 10
